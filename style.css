@@ -1,0 +1,363 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.header {
+    background-color: rgb(49, 109, 195);
+    width: 100%;
+}
+
+.header1 {
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 12px;
+}
+
+.headertext {
+    display: inline-block;
+    color: wheat;
+    font-size: large;
+}
+
+.headerrealtext {
+    text-align: right;
+    margin-left: 140px;
+    font-size: 16px;
+}
+
+.headerbuttons {
+    display: inline-block;
+    margin-left: 140px;
+}
+
+.everyheaderbutton {
+    background-color: whitesmoke;
+    color: yellowgreen;
+    margin-left: 5px;
+    border: thick;
+    padding: 3px 2px 3px 2px;
+    text-decoration: none;
+    font-size: small;
+}
+
+/* Menubar */
+
+.Menubar {
+    background-color: whitesmoke;
+    position: fixed;
+    position: sticky;
+    top: 0;
+    margin: 0px;
+    width: 100%;
+}
+
+.menupic {
+    margin-left: 180px;
+    height: 75px;
+    width: 262px;
+}
+
+.menubarhome {
+    display: inline-block;
+    margin-right: 200px;
+    vertical-align: top;
+}
+
+.nav {
+    float: right;
+    margin-top: 20px;
+    text-size-adjust: 15px;
+    padding-bottom: 5px;
+    margin-right: 200px;
+    font-weight: inherit;
+}
+
+.nav ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav ul li {
+    background-color: white;
+    width: 130px;
+    border: 1px rgb(167, 167, 167);
+    height: 35px;
+    position: relative;
+    line-height: 35px;
+    text-align: center;
+    color: black;
+    float: left;
+    border-radius: 28px;
+}
+
+.nav ul li:hover {
+    background-color: rgb(49, 109, 195);
+    color: rgb(19, 1, 1);
+}
+
+.nav ul li ul li a:hover {
+    text-decoration: none;
+}
+
+.nav ul li ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul ul {
+    display: none;
+}
+
+.nav ul li:hover>ul {
+    display: block;
+}
+
+.nav ul li ul li {
+    border-radius: 0px;
+}
+
+.nav ul ul ul {
+    margin-left: 130px;
+    top: 0;
+    position: absolute;
+}
+
+/* headlines */
+
+.headlines {
+    background-color: rgb(49, 109, 195);
+    margin: 0px 120px 0px 120px;
+    padding-left: 110px;
+    border-radius: 20px;
+}
+
+.headlinestext {
+    color: cornsilk;
+    display: inline-block;
+}
+
+.headlinestext1 {
+    color: greenyellow;
+    display: inline-block;
+}
+
+/* Introduction */
+
+.Introduction {
+    text-align: center;
+    margin-top: 40px;
+    clear: both;
+}
+
+.introhr {
+    width: 40px;
+    color: rgb(66, 121, 0);
+    display: inline-block;
+    text-align: center;
+}
+
+.introhr1 {
+    width: 40px;
+    color: rgb(66, 121, 0);
+    display: inline-block;
+}
+
+/* intropara */
+
+.intropara {
+    margin: 0px 150px 0px 150px;
+}
+
+.paramaterial {
+    margin: 0px 230px 0px 230px;
+    text-align: justify;
+}
+
+/* counter */
+
+.counter {
+    background-color: rgb(39, 85, 233);
+    width: 100%;
+    margin-top: 40px;
+}
+
+.counter ul {
+    padding: 3% 8%;
+}
+
+.counter ul li {
+    display: inline-block;
+    color: honeydew;
+    text-align: center;
+    width: 24%;
+}
+
+.counter p span {
+    color: rgb(0, 255, 0);
+    font-size: 22px;
+}
+
+/* What are we doing */
+
+.Whatarewe {
+    margin-left: 610px;
+}
+
+.main-heading {
+    color: rgb(49, 109, 195);
+}
+
+.main-heading span {
+    color: rgb(66, 121, 0);
+}
+
+.Whathr {
+    width: 40px;
+    color: rgb(66, 121, 0);
+    display: inline-block;
+    margin-left: 115px;
+}
+
+.Whathr1 {
+    width: 40px;
+    color: rgb(66, 121, 0);
+    display: inline-block;
+}
+
+/* Table */
+
+.table {
+    text-align: center;
+    margin-left: 260px;
+}
+
+.table tr td {
+    box-shadow: 2px 2px 5px lightslategrey;
+    width: 33%;
+    padding: 0px 35px 0px 35px;
+}
+
+.tablepara {
+    font-size: 26px;
+    color: rgb(49, 109, 195);
+}
+
+.table tr td img {
+    width: 55px;
+    height: 70px;
+}
+
+/* MISSION AND UPCOMING PROJECTS  */
+
+.mission {
+    margin-top: 35px;
+    float: left;
+    width: 70%;
+}
+
+.mission h2 {
+    color: rgb(49, 109, 195);
+}
+
+.mission table tr td p {
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(49, 109, 195);
+}
+
+/* Upcoming Events */
+
+.events {
+    float: right;
+    width: 30%;
+    margin-top: 35px;
+}
+
+.events h2 {
+    color: rgb(49, 109, 195);
+}
+
+/* .events>hr {
+    width: 65px;
+    margin-right: 1300px;
+} */
+
+.events p {
+    text-align: justify;
+    color: midnightblue;
+}
+
+.upcoming {
+    width: 65%;
+    margin: 50px auto;
+}
+
+.upcoming hr {
+    width: 20%;
+}
+
+/* Last Images */
+
+.lastimages {
+    width: 70%;
+    margin: 50px 20%;
+}
+
+.lastimages table tr td img {
+    width: 180px;
+    height: 150px
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    background-color: rgb(37, 39, 46);
+}
+
+.address {
+    color: mintcream;
+    font-style: unset;
+    margin-left: 100px;
+    padding-top: 70px;
+    display: inline-block;
+    width: 33%;
+}
+
+.useful {
+    color: whitesmoke;
+    display: inline-block;
+    width: 27%;
+    vertical-align: top;
+    padding-top: 63px;
+}
+
+.useful hr {
+    width: 70px;
+    margin-right: 370px;
+}
+
+.Connect {
+    color: whitesmoke;
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    padding-top: 63px;
+}
+
+.copy {
+    background-color: rgb(49, 109, 195);
+    width: 100%;
+    margin: 0;
+}
+
+.copy p {
+    color: whitesmoke;
+    text-align: center;
+}
